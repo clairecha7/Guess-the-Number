@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #b621fe, #887afc, #1fd1f9);
+  font-family: "Titan One", cursive;
+}
+
+.container {
+  max-width: 700px;
+  height: 600px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 15%;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom, #b621fe, #1fd1f9);
+  transition: border-color 0.2s ease-in-out;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#guess-button {
+  padding: 13px 25px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #b621fe;
+  font-weight: bold;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 25px;
+  margin: 10px;
+}
+h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 2rem;
+}
+
+#try-again {
+  padding: 13px 25px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1fd1f9;
+  font-weight: bold;
+}
